@@ -1,0 +1,4 @@
+<Response>
+	<PlayAudio>/audio/greeting.mp3</PlayAudio>
+	<Redirect requestUrl="/basement/goingdown.xml" requestMethod="GET"/>
+</Response>

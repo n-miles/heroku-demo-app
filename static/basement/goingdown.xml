@@ -1,0 +1,4 @@
+<Response>
+	<PlayAudio>/audio/basement.mp3</PlayAudio>
+	<Redirect requestUrl="subbasement/bottom.xml" requestMethod="GET"/>
+</Response>

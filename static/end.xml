@@ -1,0 +1,4 @@
+<Response>
+	<PlayAudio>/audio/goodbye.mp3</PlayAudio>
+	<Hangup/>
+</Response>

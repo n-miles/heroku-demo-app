@@ -1,0 +1,6 @@
+<Response>
+	<PlayAudio>/audio/basementflooded.mp3</PlayAudio>
+	<PlayAudio>../../audio/water.mp3</PlayAudio>
+	<PlayAudio>../subbasement/../../audio/backtolobby.mp3</PlayAudio>
+	<Redirect requestUrl="../../end.xml" requestMethod="GET"/>
+</Response>
