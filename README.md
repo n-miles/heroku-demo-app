@@ -1,6 +1,7 @@
 # Run Locally
 
 `npm install`
+
 `node server.js` OR `heroku local web`
 
 # Run on Heroku
@@ -29,8 +30,8 @@ instances:
 
 When you `git push heroku master`, Heroku automatically detects what type of app you have
 deployed. In this case, it's a Node.js app, so it runs `npm install` to install dependencies.
-It now has a master copy of your app (they call it a slug) that can be deployed to each
-instance you spin up. When a new instance is spun up, the slug is copied into the new VM,
+It now has a master copy of your app that can be deployed to each instance you spin up. They
+call the copy a slug. When a new instance is spun up, the slug is copied into the new VM,
 and the command in the `Procfile` is executed.
 
 If you change the way that your application is started, or if you write a Java app or
